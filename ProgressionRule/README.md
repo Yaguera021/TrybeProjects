@@ -2,52 +2,28 @@
 
 Boas-vindas ao repositório do projeto `Regra de Progressão`.  
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir! #vqv 🚀
-
-Aqui, você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto com base nesse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-## Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes
-do [Código de Conduta e do Manual da Pessoa Estudante da Trybe](https://app.betrybe.com/learn/student-manual/codigo-de-conduta-da-pessoa-estudante).
-
-## Entregáveis
-
-<details>
-  <summary>🤷🏽‍♀️ Como entregar</summary><br />
-
-Para entregar o seu projeto, você deverá criar um _Pull Request_ nesse repositório.
-
-Lembre-se de que você pode consultar nosso conteúdo
-sobre [Git & GitHub](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/fc998c60-386e-46bc-83ca-4269beb17e17/section/fe827a71-3222-4b4d-a66f-ed98e09961af/day/1a530297-e176-4c79-8ed9-291ae2950540/lesson/2b2edce7-9c49-4907-92a2-aa571f823b79)
-e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que
-precisar!
-</details>
 
 <details>
   <summary>👨‍💻 O que deverá ser desenvolvido</summary><br />
 
-Descubra seu caminho para o sucesso com a Trybe!
 
-Na Trybe, uma escola inovadora, nossas avaliações são conduzidas em períodos de 21 dias, repletos de desafios e oportunidades de aprendizado. Cada período é composto de uma variedade de seções instigantes, abrangendo conteúdos teóricos e atividades práticas que avaliam o seu progresso. Projetos empolgantes, exercícios envolventes, quizzes instigantes e atividades de carreira, além de propor situações reais de mercado para o desenvolvimento de habilidades pessoais, compõem a trilha para o seu crescimento profissional.
+ProgressionRule Project
+Este projeto tem como objetivo auxiliar os estudantes da Trybe a gerenciar suas atividades avaliativas e acompanhar seu progresso ao longo dos períodos de estudo. A seguir, detalhamos as funcionalidades e o propósito deste programa implementado em Java.
 
-A cada período, o objetivo da pessoa estudante é alcançar 85% dos pontos adiquiridos nas atividades avaliativas. Cada uma dessas atividades vale até 100%, porém cada atividade com um peso diferente. Isto é, a nota final é uma média ponderada de todas as atividades avaliativas do período. É com essa pontuação que você avança na formação, alcançando novos patamares de conhecimento e habilidades.
+Funcionalidades
+Cadastro de Atividades Avaliativas:
 
-Ao final de cada período, duas possibilidades se abrem diante de você: a Aprovação ou a Reprovação. Seu desempenho determinará qual caminho seguir. Atingindo a pontuação mínima exigida para o período, você conquista a Aprovação, avançando para o próximo período e prosseguindo com sua turma. É um passo à frente em direção ao seu sucesso!
+Os estudantes podem cadastrar diversas atividades avaliativas, como exercícios e projetos, para cada período de estudo.
 
-Porém, caso não alcance a pontuação mínima, não se preocupe! A Reprovação não é um obstáculo, mas uma oportunidade de aprimoramento. Você poderá refazer o mesmo período na próxima turma disponível, fortalecendo seus conhecimentos e suas habilidades até alcançar a Aprovação desejada.
+Inserção de Notas:
 
-E agora, a grande novidade! Para facilitar sua jornada e auxiliar na gestão das atividades avaliativas, iremos implementar um programa em Java com uma interface intuitiva no terminal, que permitirá:
+É possível inserir as notas obtidas em cada uma das atividades cadastradas para o período.
 
-a. Cadastrar atividades avaliativas para o período, seja exercícios ou projetos. Assim, você terá um controle completo sobre suas tarefas e metas.
+Cálculo do Percentual Alcançado:
+O programa calcula automaticamente o percentual alcançado com base nas notas inseridas, oferecendo uma visão clara do desempenho do estudante.
 
-b. Inserir as notas dos exercícios e projetos cadastrados para o período. O programa calculará automaticamente o percentual alcançado, revelando seu desempenho de forma nítida e objetiva.
-
-c. Com base no percentual alcançado, você descobrirá se foi aprovado ou reprovado. A mágica acontece quando você supera o limite de 85%. É a sua passagem para o próximo período, uma conquista a ser comemorada!
-
-Chegou a hora de embarcar nesse projeto desafiador e inspirador na Trybe! O programa em Java será seu aliado nessa caminhada, tornando seu aprendizado ainda mais dinâmico e empolgante.
-
-Prepare-se para abraçar o futuro e transformar sua vida. Aventure-se, aprenda e alcance o sucesso com a gente!
+Determinação de Aprovação ou Reprovação:
+Com base no percentual alcançado (85% é o mínimo exigido), o programa indica se o estudante foi aprovado ou reprovado no período.
 
 </details>
 
@@ -78,147 +54,6 @@ Neste exercício, verificamos se você é capaz de:
   Durante o desenvolvimento do programa, podem surgir desafios e problemas que exigirão habilidades de resolução de problemas para identificar e corrigir os erros.
 
 </details>
-
-## Orientações
-
-<details>
-
-   <summary><strong>‼ Antes de começar a desenvolver </strong></summary>
-
-1. Clone o repositório
-
-- Use o comando: `git clone <url do repositório>`
-- Entre na pasta do repositório que você acabou de clonar:
-    - `cd <nome do repositório>`
-
-2. Instale as dependências
-
-    - `mvn install`
-
-3. Crie uma branch com base na branch `main`
-
-- Verifique que você está na branch `main`
-    - Exemplo: `git branch`
-- Se você não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-- Agora, crie uma branch à qual você vai submeter os `commits` do seu projeto:
-    - Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`;
-    - Exemplo: `git checkout -b maria-soares-lessons-learned`
-
-4. Crie na raiz do projeto os arquivos que você precisará desenvolver:
-
-- Verifique que você está na raiz do projeto:
-    - Exemplo: `pwd` -> o retorno vai ser algo tipo
-      _/Users/maria/code/**sd-0x-project-lessons-learned**_
-- Crie os arquivos index.html e style.css:
-    - Exemplo: `touch index.html style.css`
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_:
-    - Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git:
-    - Exemplo:
-        - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        - `git status` (devem aparecer listados os arquivos em verde)
-- Faça o `commit` inicial:
-    - Exemplo:
-        - `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-6. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin maria-soares-lessons-learned`
-
-7. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_
-  do [repositório no GitHub](https://github.com/tryber/sd-0x-project-lessons-learned/pulls).
-    - Clique no botão verde _"New pull request"_.
-    - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**.
-- Coloque um título para o seu _Pull Request_.
-    - Exemplo: _"Cria tela de busca"_
-- Clique no botão verde _"Create pull request"_.
-
-- Adicione uma descrição para o _Pull Request_, um título nítido que o identifique, e clique no
-  botão verde _"Create pull request"_
-
- <img width="1335" alt="Exemplo de pull request" src="https://user-images.githubusercontent.com/42356399/166255109-b95e6eb4-2503-45e5-8fb3-cf7caa0436e5.png">
-
-- Volte até a [página de _Pull
-  Requests_ do repositório](https://github.com/tryber/sd-0x-project-lessons-learned/pulls) e confira
-  que o seu _Pull Request_ está criado.
-
-</details>
-
-<details>
-
-<summary><strong>⌨️ Durante o desenvolvimento</strong></summary>
-
-Faça `commits` das alterações que você fizer no código regularmente, pois, assim, você garante
-visibilidade para o time da Trybe e treina essa prática para o mercado de trabalho. :) 
-
-- Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto.
-- Os comandos que você utilizará com mais frequência são:
-    - `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde -
-      no stage)_;
-    - `git add` _(para adicionar arquivos ao stage do Git)_;
-    - `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
-    - `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na
-      primeira vez que fizer o `push` de uma nova branch)_;
-    - `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
-
-</details>
-
-<details>
-<summary><strong>🎛 Checkstyle</strong></summary>
-
-Para garantir a qualidade do código, vamos utilizar nesse projeto o `Checkstyle`. Assim, o código
-estará alinhado às boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção!
-Para poder rodar o `Checkstyle`, certifique-se de ter executado o comando `mvn install` dentro do
-repositório.
-
-Para rodá-los localmente no repositório, execute os comandos abaixo:
-
-```bash
-mvn checkstyle:check
-```
-
-Se a análise do `Checkstyle` encontrar problemas no seu código, tais problemas serão mostrados no
-seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-Você pode também instalar o plugin do `Checkstyle` na sua `IDE`. Para isso, volte na primeira seção
-do conteúdo.
-
-⚠️ **PULL REQUESTS COM ISSUES NO `Checkstyle` NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES
-DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
-
-</details>
-
-<details>
-<summary><strong>🛠 Testes</strong></summary>
-
-
-Para executar todos os testes, basta rodar o comando:
-
-```bash
-mvn test
-```
-
-Para executar apenas uma classe de testes:
-
-```bash
-mvn test -Dtest="TestClassName"
-```
-
-</details>
-
-## Dicas para mandar bem!
-
-> 1. Evite o uso de atributos e métodos estáticos em sua implementação, esses poderão impactar diretamente a saída dos testes já que os valores serão armazenados na classe e não em seus objetos;
-> 2. Evite utilizar múltiplas instâncias da classe Scanner, pois poderão conflitar uma com a outra;
-> 3. Utilize, sempre que possível, o método nextLine() associado à classe Scanner e realize a conversão do tipo de dado da entrada (String) para o tipo de dado da variável onde a entrada será armazenada (int, float, etc.);
-> 4. Evite utilizar os métodos `next()`, `nextInt()`, `nextDouble()`, entre outros. Pois esses métodos, sozinhos, não conseguem representar o fluxo de operação em um terminal, não consumindo novas linhas quando simulamos a utilização da tecla `Enter` durante a execução dos testes.
 
 ## Requisitos do projeto
 
@@ -266,7 +101,6 @@ Digite o peso da atividade 3:
 </details>
 
 ---
-
 ### 2 - Inserir as notas obtidas
 
 <details>
@@ -402,27 +236,4 @@ Lamentamos informar que, com base na sua pontuação alcançada neste período, 
 </details>
 
 </details>
-
----
-<details>
-<summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary>
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o
-formulário.
-**Leva menos de 3 minutos!**
-
-[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH31-JAVA&template=betrybe/java-0x-projeto-regra-progressao)
-
-</details>
-
-<details>
-<summary><strong>🗂 Compartilhe seu portfólio!</strong></summary>
-
-Você sabia que o LinkedIn é a principal rede social profissional? Por isso, compartilhar o seu aprendizado lá
-é muito importante para quem deseja construir uma carreira de sucesso. Compartilhe esse projeto no
-seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
----
 

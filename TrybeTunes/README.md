@@ -18,7 +18,7 @@
 </details>
 
 <details>
-  <summary><strong>:memo: Habilidades</strong></summary><br />
+  <summary><strong>📝 Habilidades</strong></summary><br />
 
 
 - Fazer requisições e consumir dados vindos de uma `API`;
