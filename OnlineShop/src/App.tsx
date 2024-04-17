@@ -1,8 +1,13 @@
+// import Header from './components/Header';
+// import Hero from './components/Hero';
+// import Products from './components/Products';
+
 function App() {
   return (
     <>
-      <h1>My React App</h1>
-      <p>Welcome to my React app!</p>
+      {/* <Header /> */}
+      {/* <Hero /> */}
+      {/* <Products /> */}
     </>
   );
 }
