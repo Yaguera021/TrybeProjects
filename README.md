@@ -1,20 +1,28 @@
-### Estudos e projetos desenvolvidos durante o curso Desenvolvimento Web Full Stack - Trybe!
+<div align="center">
+<h1>
+Estudos e projetos desenvolvidos durante o curso Desenvolvimento Web Full Stack - Trybe!
+</h1>
 
-# Yago Böhm da Cruz
+<h3>
+Yago Böhm da Cruz
+</h3>
+<hr>
 
 Durante o curso de desenvolvimento web da Trybe, passei por diversos desafios para refinar os ensinamentos.
 
-<h2>Fundamentos</h2> 
+<h3>Fundamentos 📚</h3> 
   Introdução ao HTML & CSS, Git, Internet, JavaScript & DOM, Testes Unitários.
 
-<h2> Front-End </h2>
+<h3> Front-End ⚛️</h3>
   React, React Router, Redux, Context API, Hooks, TypeScript.
 
-<h2> Back-End </h2> 
+<h3> Back-End ⚙️</h3> 
   Docker, Banco de Dados, Node.js, Express, Testes: Mocha, Chai e Sinon. SOLID, ORM, POO.
 
-<h2>Ciência da Computação</h2> 
+<h3>Ciência da Computação 💻</h3> 
   Algoritmos, Ordenação de Busca, Estrutura de Dados, POO, Python.
 
-<h2>Java</h2>
+<h3>Java ☕</h3>
   Fundamentos do Java, POO, JavaWeb, Spring Boot, Testes - JUnit, API REST - Spring, Persistência, Spring Security.
+
+</div>
