@@ -26,3 +26,28 @@ Durante o curso de desenvolvimento web da Trybe, passei por diversos desafios pa
   Fundamentos do Java, POO, JavaWeb, Spring Boot, Testes - JUnit, API REST - Spring, Persistência, Spring Security.
 
 </div>
+<br/>
+<hr>
+<div align="center">
+<h1>
+Studies and Projects Developed During the Full Stack Web Development Course - Trybe!
+</h1>
+
+During the Trybe web development course, I faced various challenges to refine my knowledge.
+
+<h3>Fundamentals 📚</h3> 
+  Introduction to HTML & CSS, Git, Internet, JavaScript & DOM, Unit Testing.
+
+<h3>Front-End ⚛️</h3>
+  React, React Router, Redux, Context API, Hooks, TypeScript.
+
+<h3>Back-End ⚙️</h3> 
+  Docker, Databases, Node.js, Express, Testing: Mocha, Chai, and Sinon. SOLID, ORM, OOP.
+
+<h3>Computer Science 💻</h3> 
+  Algorithms, Search Sorting, Data Structures, OOP, Python.
+
+<h3>Java ☕</h3>
+  Java Fundamentals, OOP, JavaWeb, Spring Boot, Testing - JUnit, REST API - Spring, Persistence, Spring Security.
+
+</div>
